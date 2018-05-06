@@ -1,10 +1,11 @@
 package main
 
 import (
-	"gophercises/quiz/students/hackeryarn/quiz"
 	"io"
 	"log"
 	"os"
+
+	"github.com/hackeryarn/quiz/students/hackeryarn/quiz"
 )
 
 func openFile(fileName string) io.ReadCloser {

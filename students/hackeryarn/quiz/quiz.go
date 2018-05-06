@@ -3,8 +3,9 @@ package quiz
 import (
 	"encoding/csv"
 	"fmt"
-	"gophercises/quiz/students/hackeryarn/problem"
 	"io"
+
+	"github.com/hackeryarn/quiz/students/hackeryarn/problem"
 )
 
 // Quiz is used to run the quiz exercise
